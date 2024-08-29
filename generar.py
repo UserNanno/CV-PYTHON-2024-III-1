@@ -81,8 +81,8 @@ def generar_dataset(num_clientes):
 
 
 # Generar un dataset de 1000 clientes
-dataset = generar_dataset(10000000)
+dataset = generar_dataset(1000)
 
 # Guardar el dataset en un archivo CSV
-dataset.to_csv("segmentacion_clientes_mejorado.csv", index=False)
-print("Dataset generado y guardado en 'segmentacion_clientes_mejorado.csv'")
+dataset.to_csv("test.csv", index=False)
+print("Dataset generado y guardado en 'test.csv'")
