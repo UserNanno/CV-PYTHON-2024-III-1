@@ -13,7 +13,7 @@ tipo_propiedad = ['Departamento', 'Casa',
 
 # Generar datos sintéticos
 np.random.seed(42)  # Para reproducibilidad
-num_propiedades = 56000  # Número de propiedades en el dataset
+num_propiedades = 10000  # Número de propiedades en el dataset
 
 # Generación de fechas de publicación aleatorias en el rango de 2 años
 fecha_base = datetime(2022, 1, 1)
